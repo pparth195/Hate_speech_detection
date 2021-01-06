@@ -4,10 +4,8 @@ import sklearn
 import gzip
 
 
-with gzip.open('Models/transform_f.pklz', 'rb') as ifp:
-    tfidf = pickle.load(ifp)
 
-#tfidf = pickle.load(open('Models/transform_f.pkl', "rb"))
+tfidf = pickle.load(open('Models/transform_f.pkl', "rb"))
 
 # print(tfidf_text[0].todense().shape)
 svc = pickle.load(open("Models/svc.pkl", "rb"))
