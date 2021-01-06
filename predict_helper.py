@@ -4,7 +4,7 @@ import sklearn
 import gzip
 
 
-with gzip.open('Models/transform_f.pkl', 'rb') as ifp:
+with gzip.open('Models/transform_f.pklz', 'rb') as ifp:
     tfidf = pickle.load(ifp)
 
 #tfidf = pickle.load(open('Models/transform_f.pkl', "rb"))
