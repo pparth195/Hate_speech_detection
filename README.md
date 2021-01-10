@@ -11,7 +11,6 @@ For web app I used streamlit.
 
 Web URL: https://hate-speech-pred.herokuapp.com/ **
 
-**My last heroku deployement has some error I am currently working on it.
 
 How to run locally:
 
